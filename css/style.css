@@ -296,7 +296,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 #navigation.align-center ul ul { text-align: left; }
 #navigation.align-right>ul>li { float: right; }
 #navigation>ul>li>a { padding: 16px 16px; font-size: 13px; color: #fff; letter-spacing: 1px; text-decoration: none; font-weight: 600; text-transform: uppercase; }
-#navigation>ul>li:hover>a { color: #fff; background-color: #d6211b; }
+#navigation>ul>li:hover>a { color: #fff; background-color: #333333; }
 #navigation>ul>li.has-sub>a { padding-right: 32px; }
 
 /*#navigation>ul>li>a:after {
@@ -321,7 +321,7 @@ height: 0;
 #navigation li:hover>ul>li { height: 50px; }
 #navigation ul ul ul { margin-left: 100%; top: 0; }
 #navigation.align-right ul ul ul { margin-left: 0; margin-right: 100%; }
-#navigation ul ul li a { background-color: #d6211b; padding: 18px 20px; width: 216px; font-size: 13px; text-decoration: none; color: #fff; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border-bottom: #bd1813 1px solid; margin-left: 1px; }
+#navigation ul ul li a { background-color: #D65815; padding: 18px 20px; width: 216px; font-size: 13px; text-decoration: none; color: #fff; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border-bottom: #bd1813 1px solid; margin-left: 1px; }
 #navigation ul ul li:first-child>a { border-top-right-radius: 0%; }
 #navigation ul ul li:last-child>a { border-bottom-right-radius: 0%px; border-bottom-left-radius: 0%px; }
 #navigation ul ul li:last-child>a, #navigation ul ul li.last-item>a { border-bottom: none; }
@@ -334,18 +334,18 @@ height: 0;
 #navigation.small-screen { width: 100%; }
 #navigation.small-screen ul { width: 100%; display: none; }
 #navigation.small-screen.align-center>ul { text-align: left; }
-#navigation.small-screen ul li { width: 100%; border-top: 1px solid #bd1813; top: auto; background-color: #d6211b; }
+#navigation.small-screen ul li { width: 100%; border-top: 1px solid #bd1813; top: auto; background-color: #D65815; }
 #navigation.small-screen ul ul li, #navigation.small-screen li:hover>ul>li { height: auto; }
 #navigation.small-screen ul li a, #navigation.small-screen ul ul li a { width: 100%; border-bottom: 0; padding: 20px 15px; color: #fff; }
 #navigation.small-screen>ul>li>a:after { position: absolute; top: 16px; right: -3px; height: 2px; display: block; content: ''; }
 #navigation.small-screen>ul>li { float: none; }
 #navigation.small-screen ul ul li a { padding-left: 25px; }
 #navigation.small-screen ul ul ul li a { padding-left: 35px; }
-#navigation.small-screen ul ul li a { color: #fff; background: #d6211b; margin: 0px; }
+#navigation.small-screen ul ul li a { color: #fff; background: #D65815; margin: 0px; }
 #navigation.small-screen ul ul li:hover>a, #navigation.small-screen ul ul li.active>a { color: #fff; background-color: #bb1712; }
 #navigation.small-screen ul ul, #navigation.small-screen ul ul ul, #navigation.small-screen.align-right ul ul { position: relative; left: 0; width: 100%; margin: 0; text-align: left; }
 #navigation.small-screen>ul>li.has-sub>a:after, #navigation.small-screen>ul>li.has-sub>a:before, #navigation.small-screen ul ul>li.has-sub>a:after, #navigation.small-screen ul ul>li.has-sub>a:before { display: none; }
-#navigation.small-screen #menu-button { display: block; padding: 18px; color: #fff; cursor: pointer; font-size: 12px; text-transform: uppercase; font-weight: 400; background-color: #d6211b; margin-top: 10px; }
+#navigation.small-screen #menu-button { display: block; padding: 18px; color: #fff; cursor: pointer; font-size: 12px; text-transform: uppercase; font-weight: 400; background-color: #222222; margin-top: 10px; }
 #navigation.small-screen #menu-button:after { position: absolute; top: 16px; right: 17px; display: block; height: 12px; width: 20px; border-top: 2px solid #fff; border-bottom: 2px solid #fff; content: ''; }
 #navigation.small-screen #menu-button:before { position: absolute; top: 21px; right: 17px; display: block; height: 2px; width: 20px; background: #fff; content: ''; }
 #navigation.small-screen #menu-button.menu-opened:after { top: 20px; border: 0; height: 2px; width: 10px; background: #fff; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
